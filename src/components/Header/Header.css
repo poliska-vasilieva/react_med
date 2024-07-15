@@ -1,0 +1,50 @@
+.Nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 57px;
+    align-items: center;
+}
+
+.Dropdown-contentHeader a {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    color: rgb(0,101,155);
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.DropbtnHeader {
+    background-color: unset;
+    border: none;
+    font-size: 24px;
+    color: rgb(0,101,155);
+    font-weight: bold;
+    margin: 0 8px;
+}
+
+.DropbtnHeader:hover {
+    text-decoration: underline;
+}
+  
+.DropdownHeader {
+    display: inline-block;
+}
+
+.Dropdown-contentHeader {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.DropdownHeader:hover .Dropdown-contentHeader {
+    display: block;
+}
+
+.Blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

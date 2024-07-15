@@ -1,0 +1,21 @@
+.MiniNew {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    font-size: 20px;
+}
+
+.MiniNewDate {
+    color: #81B9E4;
+    padding-bottom: 23px;
+}
+
+.MiniNewTitle {
+    color: #00659B;
+}
+
+.SmallNews {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

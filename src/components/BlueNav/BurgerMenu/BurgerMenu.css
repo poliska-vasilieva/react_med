@@ -1,0 +1,145 @@
+.navbar {
+  width: 100%;
+  padding-bottom: 145px;
+}
+  
+.nav-container {
+  display: flex;
+}
+  
+.navbar .menu-items {
+  display: flex;
+}
+  
+.navbar .nav-container li {
+  list-style: none;
+}
+  
+.navbar .nav-container a {
+  text-decoration: none;
+  color: #81B9E4;
+  font-weight: bold;
+  font-size: 27px;
+}
+  
+.navbar .nav-container a:hover{
+  color: #ffffff;
+}
+
+.nav-container .checkbox {
+  /* display: block; */
+  height: 32px;
+  width: 32px;
+  z-index: 5;
+  opacity: 0;
+  cursor: pointer;
+}
+  
+.nav-container .hamburger-lines {
+  height: 26px;
+  width: 32px;
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+  
+.nav-container .hamburger-lines .line {
+  /* display: block; */
+  height: 4px;
+  width: 100%;
+  border-radius: 10px;
+  background: #ffffff;
+}
+  
+.nav-container .hamburger-lines .line1 {
+  transform-origin: 0% 0%;
+  transition: transform 0.4s ease-in-out;
+}
+  
+.nav-container .hamburger-lines .line2 {
+  transition: transform 0.2s ease-in-out;
+}
+  
+.nav-container .hamburger-lines .line3 {
+  transform-origin: 0% 100%;
+  transition: transform 0.4s ease-in-out;
+}
+  
+.navbar .menu-items {
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.5s ease-in-out;
+  transform: translate(-150%);
+  position: absolute;
+}
+ 
+.navbar .menu-items li {
+  font-weight: 500;
+}
+    
+.nav-container input[type="checkbox"]:checked ~ .menu-items {
+  transform: translateX(0);
+  background-color: #00659B;
+  width: max-content;
+  padding: 0 0 45px 130px;
+}
+ 
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+  transform: rotate(45deg);
+}
+  
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+  transform: scaleY(0);
+}
+  
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+  transform: rotate(-45deg);
+}
+
+
+.UlBurgerMenu {
+  display: flex;
+  flex-direction: column;
+}
+
+.Dropdown-contentBurgerMenu a {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  color: #81B9E4;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.DropbtnBurgerMenu {
+  background-color: unset;
+  border: none;
+  font-size: 27px;
+  color: #81B9E4;
+  font-weight: bold;
+}
+
+.DropbtnBurgerMenu:hover {
+  color: #fff;
+}
+
+.DropdownBurgerMenu {
+  display: inline-block;
+}
+
+.Dropdown-contentBurgerMenu {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.DropdownBurgerMenu:hover .Dropdown-contentBurgerMenu {
+  display: flex;
+  padding-left: 250px;
+}
+
+.BlocksBurgerMenu {
+  background-color: #00659B;
+}
