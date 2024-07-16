@@ -1,5 +1,5 @@
 import './BlueNav.css';
-import BurgerMenu from '../BlueNav/BurgerMenu/BurgerMenu'
+import BurgerMenu from './BurgerMenu/BurgerMenu'
 import MFC from './BlueNavImg/mfc.png'
 import Search from './BlueNavImg/search.png'
 import VK from './BlueNavImg/vk.png'

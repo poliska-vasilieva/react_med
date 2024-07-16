@@ -3,11 +3,7 @@
   padding-bottom: 145px;
 }
   
-.nav-container {
-  display: flex;
-}
-  
-.navbar .menu-items {
+.nav-container, .navbar .menu-items  {
   display: flex;
 }
   
@@ -98,48 +94,39 @@
   transform: rotate(-45deg);
 }
 
-
-.UlBurgerMenu {
-  display: flex;
-  flex-direction: column;
-}
-
-.Dropdown-contentBurgerMenu a {
-  display: flex;
-  flex-direction: column;
-  font-size: 20px;
-  color: #81B9E4;
-  list-style-type: none;
-  text-decoration: none;
-}
-
-.DropbtnBurgerMenu {
-  background-color: unset;
-  border: none;
-  font-size: 27px;
-  color: #81B9E4;
-  font-weight: bold;
-}
-
-.DropbtnBurgerMenu:hover {
-  color: #fff;
-}
-
-.DropdownBurgerMenu {
+/* .section-sb-list  {
   display: inline-block;
+} */
+
+.section-sb-list li {
+  position: relative;
 }
 
-.Dropdown-contentBurgerMenu {
-  display: none;
+.section-sb-list li > ul {
   position: absolute;
-  z-index: 1;
+  top: 0;
+  right: -50px;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(100%);
+  transition: all 0.3s ease-in-out;
 }
 
-.DropdownBurgerMenu:hover .Dropdown-contentBurgerMenu {
-  display: flex;
-  padding-left: 250px;
+.section-sb-list li:hover > ul {
+  opacity: 1;
+  pointer-events: all;
+  right: 0;
 }
 
-.BlocksBurgerMenu {
+.category-children {
   background-color: #00659B;
+  padding: 20px;
+}
+
+.LinkUppercase{
+  text-transform: uppercase;
+}
+
+.category-children a {
+  color: #ffffff;
 }

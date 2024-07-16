@@ -1,0 +1,13 @@
+.Bn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.p1 {
+    max-height: 196px;
+}
+
+.p2 {
+    max-width: 306px;
+}
