@@ -78,7 +78,7 @@
 .nav-container input[type="checkbox"]:checked ~ .menu-items {
   transform: translateX(0);
   background-color: #00659B;
-  width: max-content;
+  width: 100%;
   padding: 0 0 45px 130px;
 }
  
@@ -94,9 +94,10 @@
   transform: rotate(-45deg);
 }
 
-/* .section-sb-list  {
+.section-sb-list  {
   display: inline-block;
-} */
+  max-width: 416px;
+}
 
 .section-sb-list li {
   position: relative;
@@ -120,7 +121,7 @@
 
 .category-children {
   background-color: #00659B;
-  padding: 20px;
+  padding-left: 20px;
 }
 
 .LinkUppercase{
@@ -129,4 +130,22 @@
 
 .category-children a {
   color: #ffffff;
+}
+
+.Links {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  padding-top: 36px;
+}
+
+.contacts {
+  color: #fff;
+  font-size: 21px;
+  padding-top: 55px;
+}
+
+.Pbold {
+  font-weight: bold;
+  padding-top: 18px;
 }
