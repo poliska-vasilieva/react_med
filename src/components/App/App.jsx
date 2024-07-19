@@ -1,7 +1,6 @@
 import './App.css';
 import Header from '../Header/Header'
-import SmallNews from '../Event/News/SmallNews/SmallNews'
-import MainNews from '../Event/News/MainNews/MainNews'
+import Activity from '../Event/News/Activity/Activity'
 import Divisions from '../Event/News/Divisions/Divisions'
 import BlueNav from '../BlueNav/BlueNav'
 import MainImg from '../Header/MainImg/MainImg'
@@ -16,8 +15,7 @@ function App() {
         <MainImg />
         <BannersNews />
         <div className='EventBlock'>
-          <MainNews />
-          <SmallNews />
+          <Activity />
           <Divisions />
         </div>
       </div>

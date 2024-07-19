@@ -5,7 +5,7 @@
     align-items: center;
 }
 
-.Dropdown-contentHeader a {
+.Dropdown-content a {
     display: flex;
     flex-direction: row;
     font-size: 20px;
@@ -14,7 +14,11 @@
     text-decoration: none;
 }
 
-.DropbtnHeader {
+#Title {
+    font-weight: bold;
+}
+
+.Dropbtn {
     background-color: unset;
     border: none;
     font-size: 24px;
@@ -23,23 +27,23 @@
     margin: 0 8px;
 }
 
-.DropbtnHeader:hover {
+.Dropbtn:hover {
     text-decoration: underline;
 }
   
-.DropdownHeader {
+.Dropdown {
     display: inline-block;
 }
 
-.Dropdown-contentHeader {
+.Dropdown-content {
     display: none;
     position: absolute;
     z-index: 1;
-    padding: 20px;
+    padding: 16px;
     background-color: #fffc;
 }
 
-.DropdownHeader:hover .Dropdown-contentHeader {
+.Dropdown:hover .Dropdown-content {
     display: block;
 }
 
