@@ -45,10 +45,12 @@
 
 .Dropdown:hover .Dropdown-content {
     display: block;
+    right: 0;
 }
 
 .Blocks {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    column-gap: 29px;
 }
