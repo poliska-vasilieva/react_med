@@ -1,0 +1,25 @@
+.Date {
+    font-size: 20px;
+    color: #89BFE9;
+    font-weight: 600;
+    padding: 17px 0 3px 0;
+}
+
+.Title {
+    color: #326496;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+.About {
+    color: #326496;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.AllNews {
+    color: #81B9E4;
+    font-size: 21px;
+    text-decoration: none;
+}

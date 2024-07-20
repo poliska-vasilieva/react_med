@@ -5,9 +5,10 @@ function MainNew(props) {
     return (
         <div>
             <div><img src={MainImg} className="MainImg" alt="MainImg" /></div>
-            <p>{props.date}</p>
-            <p>{props.title}</p>
-            <p>{props.about}</p>
+            <p className='Date'>{props.date}</p>
+            <p className='Title'>{props.title}</p>
+            <p className='About'>{props.about}</p>
+            <a href={props.link} className='AllNews'>{props.allnews}</a>
         </div>
 
     )
@@ -19,7 +20,9 @@ function MainNews() {
             <MainNew
                 date="3 октября 2023"
                 title="Второй этап конкурса на звание «Лучший врач педиатр участковый»" 
-                about="3 октября 2023 года прошло тестирование практических навыков врачей педиатров участковых в обучающем ... " />
+                about="3 октября 2023 года прошло тестирование практических навыков врачей педиатров участковых в обучающем ... " 
+                allnews='Все новости >'
+                link='#'/>
         </div>
     )
 }
