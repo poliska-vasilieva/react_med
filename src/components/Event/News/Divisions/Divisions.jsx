@@ -14,7 +14,6 @@ function Division(props) {
                 <p className='DivisionTitle'>{props.title}</p>
             </div>
         </div>
-
     )
 }
 function Divisions() {

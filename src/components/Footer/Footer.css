@@ -1,0 +1,46 @@
+.Footer {
+    background-color: #00659B;
+    margin-top: 24px;
+    padding: 22px 66px 37px 110px;
+}
+
+.Ftr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact {
+    color: #fff;
+    font-size: 21px;
+}
+
+li {
+    list-style: none;
+    color: #89BFE9;
+    font-size: 21px;
+    padding-bottom: 21px;
+}
+
+a {
+    text-decoration: none;
+}
+li:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.Down {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tech {
+    font-size: 14px;
+    color: #fff;
+}
+
+.orgma__f {
+    font-size: 14px;
+    color: #89BFE9;
+  }

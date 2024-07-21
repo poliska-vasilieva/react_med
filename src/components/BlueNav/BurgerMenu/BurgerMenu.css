@@ -146,6 +146,17 @@
 }
 
 .Pbold {
+  font-size: 25px;
   font-weight: bold;
   padding-top: 18px;
+}
+
+.orgma {
+  font-size: 14px;
+  color: #89BFE9;
+  padding-top: 27px;
+}
+
+.White {
+  color: #fff;
 }

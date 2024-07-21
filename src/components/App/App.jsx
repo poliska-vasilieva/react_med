@@ -5,12 +5,14 @@ import Divisions from '../Event/News/Divisions/Divisions'
 import BlueNav from '../BlueNav/BlueNav'
 import MainImg from '../Header/MainImg/MainImg'
 import BannersNews from '../Event/Banners/Banners'
+import Footer from '../Footer/Footer'
 
 function App() {
   return (
-    <div className='app'>
+    <div className='App'>
       <div> <BlueNav/></div>
-      <div className='container'>
+      <main>
+      <div className='Container'>
         <Header />
         <MainImg />
         <BannersNews />
@@ -19,6 +21,9 @@ function App() {
           <Divisions />
         </div>
       </div>
+      <Footer />
+      </main>
+          
     </div>
   );
 }

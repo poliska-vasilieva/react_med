@@ -1,7 +1,7 @@
 import './Header.css';
 import logo from "./img/Logo 2.png";
 
-const Header = () => {
+function Header () {
   return (
     <div className='Nav'>
       <div><img src={logo} className="App-logo" alt="logo" /></div>
