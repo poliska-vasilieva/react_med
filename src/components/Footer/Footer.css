@@ -22,10 +22,14 @@
     padding-bottom: 21px;
 }
 
+.LinkFirst {
+    column-count: 2;
+}
+
 a {
     text-decoration: none;
 }
-li:hover {
+.LinkFirst li:hover, .LinkSecond li:hover {
     color: #fff;
     text-decoration: underline;
 }
