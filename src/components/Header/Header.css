@@ -56,3 +56,7 @@
     justify-content: space-between;
     column-gap: 29px;
 }
+
+.ForStudents {
+    column-count: 2;
+}

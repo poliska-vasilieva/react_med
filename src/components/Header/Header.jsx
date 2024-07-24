@@ -5,7 +5,11 @@ import EmployeeList from './DropdownList/University/Employee'
 import GraduatesList from './DropdownList/University/Graduates'
 import EntranceList from './DropdownList/Incoming/Entrance'
 import AdmissionCommitteeList from './DropdownList/Incoming/AdmissionCommittee'
-import Schoolchild from './DropdownList/Incoming/Schoolchild'
+import SchoolchildList from './DropdownList/Incoming/Schoolchild'
+import StudentLifeList from './DropdownList/Students/StudentLife'
+import FreshmenList from './DropdownList/Students/Freshmen'
+import ForStudentsList from './DropdownList/Students/ForStudents'
+import ScientificActivityList from './DropdownList/Scientific activity/ScientificActivity'
 
 function Header () {
   return (
@@ -48,7 +52,7 @@ function Header () {
               </div>
               <div>
                 <a href="#" id='Title'>Школьникам</a>
-                <Schoolchild />
+                <SchoolchildList />
               </div>
             </div>
           </div>
@@ -60,40 +64,15 @@ function Header () {
           <div className='Blocks'>
               <div>
                 <a href="#" id='Title'>Личный кабинет</a>
+                <br/>
                 <a href="#" id='Title'>Студенческая жизнь</a>
-                <a href="#">Ассоциация общественных объединений студентов</a>
-                <a href="#">Клуб «Горицвет»</a>
-                <a href="#">Студенческий спортивный клуб</a>
+                <StudentLifeList />
                 <a href="#" id='Title'>Первокурсникам</a>
-                <a href="#">Прикрепление к Клинике адаптационной терапии</a>
-                <a href="#">Проход в университет</a>
-                <a href="#">Единая учётная запись</a>
-                <a href="#">? Воинский учёт</a>
+                <FreshmenList />
               </div>
-              <div>
+              <div className='ForStudents'>
                 <a href="#" id='Title'>Студентам</a>
-                <a href="#">Среднее профессиональное образование </a>
-                <a href="#">Лечебный факультет</a>
-                <a href="#">Стоматологический факультет</a>
-                <a href="#">Педиатрический факультет</a>
-                <a href="#">Факультет клинической психологии</a>
-                <a href="#">Медико-профилактический факультет</a>
-                <a href="#">Факультет высшего сестринского образования</a>
-                <a href="#">Факультет общественного здравоохранения</a>
-                <a href="#">Фармацевтический факультет</a>
-              </div>
-              <div>
-                <a href="#">Факультет иностранных студентов</a>
-                <a href="#">Отдел производственной практики</a>
-                <a href="#">Трудоустройство</a>
-                <a href="#">Оплата обучения</a>
-                <a href="#">Стипендии </a>
-                <a href="#">Зарубежные стажировки</a>
-                <a href="#">Симуляционный центр </a>
-                <a href="#">Платные образовательные услуги</a>
-                <a href="#">Совет студентов медицинских и фармацевтических вузов при Министерстве здравоохранения Российской Федерации</a>
-                <a href="#">Общежития</a>
-                <a href="#">Доступ к информационным системам</a>
+                <ForStudentsList />
               </div>
             </div>
           </div>
@@ -104,19 +83,7 @@ function Header () {
           <div class="Dropdown-content">
           <div className='Blocks'>
               <div>
-                <a href="#">Основные направления исследований </a>
-                <a href="#">Организация научной деятельности</a>
-                <a href="#">Подготовка научно-педагогических кадров</a>
-                <a href="#">Конкурсы, гранты</a>
-                <a href="#">Научно-практические мероприятия</a>
-                <a href="#">Патентная деятельность</a>
-                <a href="#">Международная деятельность, академическая мобильность</a>
-                <a href="#">Научно-инновационный центр координации исследований</a>
-                <a href="#">Центры коллективного пользования</a>
-                <a href="#">Совет молодых учёных</a>
-                <a href="#">Студенческое научное общество</a>
-                <a href="#">Отдел диссертационных исследований</a>
-                <a href="#">Публикации</a>
+                <ScientificActivityList />
               </div>
             </div>
           </div>
