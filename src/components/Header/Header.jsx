@@ -1,5 +1,11 @@
 import './Header.css';
 import logo from "./img/Logo 2.png";
+import StructureandHistoryList from './DropdownList/University/StructureHistory'
+import EmployeeList from './DropdownList/University/Employee'
+import GraduatesList from './DropdownList/University/Graduates'
+import EntranceList from './DropdownList/Incoming/Entrance'
+import AdmissionCommitteeList from './DropdownList/Incoming/AdmissionCommittee'
+import Schoolchild from './DropdownList/Incoming/Schoolchild'
 
 function Header () {
   return (
@@ -11,31 +17,16 @@ function Header () {
           <div class="Dropdown-content">
             <div className='Blocks'>
               <div>
-                <a href="#" id='Title'>Структура и история</a>
-                <a href="#">Сведения об образовательной организации</a>
-                <a href="#">Факультеты и кафедры</a>
-                <a href="#">Об Университете</a>
-                <a href="#">История</a>
-                <a href="#">Руководство</a>
-                <a href="#">Учёный совет</a>
-                <a href="#">Преподаватели</a>
-                <a href="#">Факультеты и кафедры</a>
-                <a href="#">Клуб выпускников ОрГМУ</a>
-                <a href="#">Контакты</a>
-                <a href="#">Противодействие терроризму и экстремизму</a>
+                <div id='Title'>Структура и история</div>
+                <StructureandHistoryList />
               </div>
               <div>
-                <a href="#" id='Title'>Сотруднику</a>
-                <a href="#">Личный кабинет</a>
-                <a href="#">Профсоюзный комитет</a>
-                <a href="#">Отдел кадров</a>
-                <a href="#">Нормативные документы</a>
-                <a href="#">Дополнительное образование</a>
+                <div id='Title'>Сотруднику</div>
+                <EmployeeList />
               </div>
               <div>
-                <a href="#" id='Title'>Выпускникам</a>
-                <a href="#">Подлинность диплома</a>
-                <a href="#">Дубликат диплома</a>
+                <div id='Title'>Выпускникам</div>
+                <GraduatesList />
               </div>
             </div>
           </div>
@@ -47,32 +38,17 @@ function Header () {
           <div className='Blocks'>
               <div>
                 <a href="#" id='Title'>Поступление</a>
-                <a href="#">Бакалавриат и специалитет</a>
-                <a href="#">Магистратура</a>
-                <a href="#">Ординатура</a>
-                <a href="#">Аспирантура</a>
-                <a href="#">Среднее профессиональное образование</a>
-                <a href="#">Целевое обучение</a>
-                <a href="#">Инвалидам и лицам с ОВЗ</a>
+                <EntranceList />
               </div>
               <div>
                 <a href="#" id='Title'>Иностранным гражданам</a>
+                <br />
                 <a href="#" id='Title'>Приемная комиссия</a>
-                <a href="#">Личный кабинет</a>
-                <a href="#">Календарь поступающего</a>
-                <a href="#">Правила приёма</a>
-                <a href="#">Чек-лист абитуриента</a>
-                <a href="#">Контакты</a>
-                <a href="#">Частые вопросы</a>
+                <AdmissionCommitteeList />
               </div>
               <div>
                 <a href="#" id='Title'>Школьникам</a>
-                <a href="#">О довузовском образовании </a>
-                <a href="#">Курсы и интенсивы для подготовки к поступлению</a>
-                <a href="#">Олимпиады</a>
-                <a href="#">Школа «Юный медик»</a>
-                <a href="#">Cопровождение химико-биологических классов</a>
-                <a href="#">Тестирование на профпригодность</a>
+                <Schoolchild />
               </div>
             </div>
           </div>

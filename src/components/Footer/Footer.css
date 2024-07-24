@@ -1,7 +1,7 @@
 .Footer {
     background-color: #00659B;
     margin-top: 24px;
-    padding: 22px 66px 37px 110px;
+    padding: 22px 66px 37px 60px;
 }
 
 .Ftr {
@@ -15,7 +15,7 @@
     font-size: 21px;
 }
 
-li {
+.LinkFirst li, .LinkSecond li {
     list-style: none;
     color: #89BFE9;
     font-size: 21px;
@@ -43,4 +43,9 @@ li:hover {
 .orgma__f {
     font-size: 14px;
     color: #89BFE9;
-  }
+}
+
+.Container {
+    max-width: 1320px;
+    margin: 0 auto;
+}

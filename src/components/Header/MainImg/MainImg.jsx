@@ -1,5 +1,5 @@
 import './MainImg.css';
-import MainImg from './Img/1 корпус 1.png'
+import MainImg from '../img/1 корпус 1.png'
 
 function MainIm() {
     return (

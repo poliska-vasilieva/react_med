@@ -5,7 +5,7 @@
     align-items: center;
 }
 
-.Dropdown-content a {
+.Dropdown-content li {
     display: flex;
     flex-direction: row;
     font-size: 16px;
@@ -15,6 +15,7 @@
 }
 
 #Title {
+    color: rgb(0,101,155);
     font-weight: bold;
     font-size: 20px;
 }
